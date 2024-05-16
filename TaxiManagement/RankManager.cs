@@ -4,9 +4,9 @@ namespace TaxiManagement
 {
     public class RankManager
     {
-        private Dictionary<int, Rank> ranks;
         public Dictionary<int, int> taxiRanks;
         int defaultNumberOfTaxiSpaces = 5;
+        private Dictionary<int, Rank> ranks;
 
         public RankManager()
         {

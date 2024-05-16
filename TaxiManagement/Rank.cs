@@ -4,10 +4,9 @@ namespace TaxiManagement
 {
     public class Rank
     {
-        public int Id { get; }
-
         private int numberOfTaxiSpaces;
         private List<Taxi> taxis;
+        public int Id { get; }
 
         public Rank(int id, int numberOfTaxiSpaces)
         {
