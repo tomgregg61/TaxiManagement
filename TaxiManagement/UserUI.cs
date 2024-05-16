@@ -101,7 +101,6 @@ namespace TaxiManagement
                 {
                     double CurrTaxi = entry.Value.TotalMoneyPaid + entry.Value.CurrentFare;
                     taxiMoney += CurrTaxi;
-                    Console.WriteLine(entry.Value.TotalMoneyPaid);
                     expectedLines.Add($"Taxi {entry.Key}      {CurrTaxi:F2}");
                 }
                 expectedLines.Add("           ======");
